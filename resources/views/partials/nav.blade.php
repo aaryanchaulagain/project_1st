@@ -42,7 +42,7 @@
         </li>
 
         <li>
-            <a href="/contactus" class="login-btn">Login</a>
+            <a href="{{ route('admin.login') }}" class="login-btn">Login</a>
         </li>
     </ul>
 </nav>

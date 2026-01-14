@@ -98,6 +98,7 @@
 .service-card:hover {
     transform: translateY(-10px);
     box-shadow: 0 25px 50px rgba(30,58,138,.15);
+    cursor: pointer;
 }
 
 /* ================= ICONS ================= */

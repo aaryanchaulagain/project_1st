@@ -20,6 +20,8 @@
 
 <!-- Font Awesome -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" loading="lazy">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
 
 <!-- GLOBAL CSS -->
 <link rel="stylesheet" href="{{ asset('css/main.css') }}">
@@ -41,6 +43,17 @@
     </main>
 
     @include('partials.footer')
+
+
+      <!-- Floating WhatsApp Button -->
+  <a href="https://wa.me/+61433292585"
+     class="whatsapp-float"
+     target="_blank"
+     rel="noopener noreferrer"
+     aria-label="Chat with us on WhatsApp">
+    <img src="{{ asset('image/whatsapp.webp') }}" alt="WhatsApp Icon" width="50" height="50" loading="lazy" decoding="async">
+  </a>
+
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" defer></script>
 </body>

@@ -1,51 +1,81 @@
-<footer class="footer" role="contentinfo">
-    <div class="footer-container">
+<!-- Font Awesome (required for icons) -->
 
-        <div class="footer-about">
-            <img src="{{ asset('image/oz.webp') }}"
-                 alt="Oz Connect Education Consultancy"
-                 width="160"
-                 height="160"
-                 loading="lazy"
-                 decoding="async">
-            <p>
-                Oz Connect is a trusted education and visa consultancy helping
-                students achieve their study-abroad dreams with confidence.
-            </p>
-        </div>
+<footer class="footer" role="contentinfo" aria-label="Website footer">
+  <div class="footer-container">
 
-        <div class="footer-links">
-            <h3>Quick Links</h3>
-            <ul>
-                <li><a href="/">Home</a></li>
-                <li><a href="/aboutus">About Us</a></li>
-                <li><a href="/service">Services</a></li>
-                <li><a href="/contactus">Contact Us</a></li>
-                <li><a href="/blog">Blog</a></li>
-            </ul>
-        </div>
-
-        <div class="footer-social">
-            <h3>Connect With Us</h3>
-            <div class="social-icons">
-                <a class="whatsapp" href="#" aria-label="WhatsApp">
-                    <i class="fab fa-whatsapp" aria-hidden="true"></i>
-                </a>
-                <a class="instagram" href="#" aria-label="Instagram">
-                    <i class="fab fa-instagram" aria-hidden="true"></i>
-                </a>
-                <a class="facebook" href="#" aria-label="Facebook">
-                    <i class="fab fa-facebook-f" aria-hidden="true"></i>
-                </a>
-                <a class="linkedin" href="#" aria-label="LinkedIn">
-                    <i class="fab fa-linkedin-in" aria-hidden="true"></i>
-                </a>
-            </div>
-        </div>
-
+    <!-- LOGO & ABOUT -->
+    <div class="footer-logo-section">
+      <img
+        src="{{ asset('image/oz.webp') }}"
+        alt="Oz Connect Education Consultancy logo"
+        class="logo-img"
+        width="70"
+        height="70"
+      />
+      <p>
+        Oz Connect is a trusted education and visa consultancy helping students
+        achieve their study-abroad dreams.
+      </p>
     </div>
 
-    <div class="footer-bottom">
-        © 2026 Oz Connect. All Rights Reserved by Ramro Soft.
+    <!-- QUICK LINKS -->
+    <div class="footer-links">
+      <h3>Quick Links</h3>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/services">Services</a></li>
+        <li><a href="/about">About Us</a></li>
+        <li><a href="/contact">Contact</a></li>
+      </ul>
     </div>
+
+    <!-- CONTACT INFO -->
+    <div class="footer-contact">
+      <h3>Contact Info</h3>
+
+      <div class="contact-item">
+        <i class="fa-solid fa-envelope"></i>
+        <span>info@ozconnectedu.com.au</span>
+      </div>
+
+      <div class="contact-item">
+        <i class="fa-solid fa-clock"></i>
+        <span>10 am – 5 pm (Mon – Fri)</span>
+      </div>
+
+      <div class="contact-item">
+        <i class="fa-solid fa-location-dot"></i>
+        <span>Sydney NSW 2000, Australia</span>
+      </div>
+    </div>
+
+    <!-- FOLLOW US -->
+    <div class="footer-social">
+      <h3>Follow Us</h3>
+      <ul>
+        <li>
+          <a href="https://www.facebook.com/OzConnectEdu/" target="_blank" aria-label="Facebook">
+            <img src="{{ asset('image/facebook.webp') }}" alt="Facebook">
+          </a>
+        </li>
+       
+        <li>
+          <a href="https://www.instagram.com/oz_connect_education.visa.syd/" target="_blank" aria-label="Instagram">
+            <img src="{{ asset('image/instagram.webp') }}" alt="Instagram">
+          </a>
+        </li>
+        <li>
+          <a href="https://www.tiktok.com/@ozconnectedu_consultant" target="_blank" aria-label="TikTok">
+            <img src="{{ asset('image/tiktok.webp') }}" alt="TikTok">
+          </a>
+        </li>
+      </ul>
+    </div>
+
+  </div>
+
+  <!-- FOOTER BOTTOM -->
+  <div class="footer-bottom">
+    © 2026 Oz Connect Education Consultancy. All rights reserved.
+  </div>
 </footer>

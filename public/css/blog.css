@@ -78,16 +78,25 @@ body {
 /* ================= IMAGE ================= */
 .blog-card img {
     width: 100%;
-    aspect-ratio: 16 / 9; /* prevent stretching */
+    max-height: 200px; /* limits image height for better balance */
     object-fit: cover;
     display: block;
-    transition: transform 0.4s ease;
     border-top-left-radius: var(--radius);
     border-top-right-radius: var(--radius);
+    transition: transform 0.4s ease, filter 0.4s ease;
 }
 
+/* subtle zoom + brightness on hover for eye-catching effect */
 .blog-card:hover img {
-    transform: scale(1.04);
+    transform: scale(1.05);
+    filter: brightness(1.1);
+}
+
+/* responsive adjustments */
+@media (max-width: 768px) {
+    .blog-card img {
+        max-height: 180px; /* slightly smaller on mobile */
+    }
 }
 
 /* ================= CONTENT ================= */

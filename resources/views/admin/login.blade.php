@@ -12,7 +12,7 @@
 
     <div class="login-image">
         <div class="image-text">
-            <h1>Welcome Back</h1>
+            <h1>Admin Pannel</h1>
             <p>Secure Admin Dashboard Access</p>
         </div>
     </div>
@@ -20,7 +20,7 @@
     <div class="login-wrapper">
         <div class="login-box">
             <h2>Admin Login</h2>
-            <p class="subtitle">Please enter your details to sign in.</p>
+           
 
             @if($errors->any())
                 <div class="error-msg">

@@ -6,51 +6,58 @@
 
 @section('content')
 
-<!-- CEO MESSAGE -->
+<!-- CEO MESSAGE SECTION -->
 <section class="home-ceo" aria-labelledby="ceo-heading">
     <div class="container ceo-container">
 
+        <!-- Text Content -->
         <article class="ceo-content">
-            <h2 id="ceo-heading">Message from CEO & Founder</h2>
-            <span class="dear-students">Dear Students,</span>
+            <header>
+                <h2 id="ceo-heading">Message from the CEO & Founder</h2>
+                <p class="dear-students">Dear Students,</p>
+            </header>
 
             <p>
-                Welcome to Oz Connect, where we open doors to international education
-                and help students achieve their dreams. As the CEO and Founder, I’m
-                proud of our success in guiding thousands of students toward their
-                educational goals across Australia, the UK, Canada, USA, Japan,
-                Denmark, and more.
+                Welcome to <strong>Oz Connect</strong>, where we open doors to
+                international education and help students achieve their global
+                ambitions. As the CEO and Founder, I am proud to guide thousands
+                of students toward academic success across Australia, the UK,
+                Canada, the USA, Japan, Denmark, and more.
             </p>
 
             <p>
-                We provide expert guidance for higher education and career development,
-                along with test preparation for IELTS, PTE, GMAT, and other
-                international exams through a dedicated team of professionals.
+                Our consultancy provides expert guidance for higher education,
+                career development, and international test preparation including
+                IELTS, PTE, GMAT, and other globally recognized examinations.
             </p>
 
-            <a href="/aboutus" class="read-more-btn">
+            <a href="/aboutus"
+               class="read-more-btn"
+               aria-label="Read more about Oz Connect vision and leadership">
                 Read More About Our Vision
             </a>
         </article>
 
-        <div class="ceo-image-wrapper">
+        <!-- Image -->
+        <aside class="ceo-image-wrapper" aria-label="CEO profile image">
             <figure class="image-placeholder">
                 <img
                     src="{{ asset('image/bullet.webp') }}"
-                    alt="Mr. Name Surname, CEO and Founder of Oz Connect Consultancy"
-                    width="400"
-                    height="500"
+                    alt="Mr. Name Surname, CEO and Founder of Oz Connect Education Consultancy"
+                    width="360"
+                    height="460"
                     loading="lazy"
                     decoding="async"
                 >
+                <figcaption class="ceo-name-label">
+                    Mr. Name Surname — CEO & Founder
+                </figcaption>
             </figure>
-            <p class="ceo-name-label">
-                Mr. Name Surname — CEO & Founder
-            </p>
-        </div>
+        </aside>
 
     </div>
 </section>
+
 
 <!-- CONTACT CTA -->
 <section class="contact-cta" aria-labelledby="cta-heading">

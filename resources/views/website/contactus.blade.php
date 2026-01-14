@@ -26,7 +26,7 @@
             <input type="email" id="email" name="email" placeholder="Enter your email" required>
 
             <label for="whatsapp">WhatsApp Number</label>
-            <input type="text" id="whatsapp" name="whatsapp" placeholder="+977 XXXXXXXX" required>
+            <input type="text" id="whatsapp" name="whatsapp" placeholder="+61 XXXXXXXX" required>
 
             <label for="subject">Subject</label>
             <select id="subject" name="subject" required>
